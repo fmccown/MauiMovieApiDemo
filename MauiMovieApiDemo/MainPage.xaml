@@ -44,6 +44,7 @@
                 <Label Text="{Binding SelectedItem.Year, Mode=TwoWay, StringFormat='Year: {0}'}" />
                 <Label Text="{Binding SelectedItem.Genre, Mode=TwoWay, StringFormat='Genre: {0}'}" />
                 <Label Text="{Binding SelectedItem.Plot, Mode=TwoWay, StringFormat='Plot: {0}'}" />
+                <Label Text="{Binding SelectedItem.ImdbRating, Mode=TwoWay, StringFormat='IMDb rating: {0}'}" />
             </VerticalStackLayout>
 
         </VerticalStackLayout>
