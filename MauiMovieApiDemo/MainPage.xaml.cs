@@ -46,7 +46,7 @@ namespace MauiMovieApiDemo
             else
             {
                 await DisplayAlertAsync("Invalid ID",
-                    "Please supply an IMDB ID, which must start with \"tt\".", "OK");
+                    "Please supply an IMDb ID, which must start with \"tt\".", "OK");
             }
 
             return movie;
